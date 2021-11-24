@@ -1,0 +1,23 @@
+{
+  "name": "graphql-intro",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/index.js -e js,gql"
+  },
+  "dependencies": {
+    "@graphql-tools/load-files": "^6.5.2",
+    "@graphql-tools/merge": "^8.2.1",
+    "apollo-server": "^3.5.0",
+    "graphql": "^16.0.1",
+    "mongoose": "^6.0.13"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "nodemon": "^2.0.15"
+  }
+}
